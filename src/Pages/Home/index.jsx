@@ -19,7 +19,7 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <div className=" lg:hidden">
+              <div className=" lg:hidden ">
                 <MobileHeader />
                 <MobileBanner />
                 <MobileBody />
