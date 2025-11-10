@@ -14,7 +14,7 @@ const MobileBody = () => {
           </h6>
         </div>
         <div className="flex justify-center gap-x-12 mt-5">
-          <div className="cursor-pointer custom_shadow02 h-55 w-65 rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
+          <div className="cursor-pointer custom_shadow02 h-50 md:h-55 w-65 rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
             <div>
               <div className="mt-5">
                 <FaCoins
@@ -31,7 +31,7 @@ const MobileBody = () => {
               </div>
             </div>
           </div>
-          <div className="cursor-pointer custom_shadow02 h-55 w-65 rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
+          <div className="cursor-pointer custom_shadow02 h-50 md:h-55 w-65 rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
             <div>
               <div className="mt-5">
                 <RiCoinsFill

@@ -9,7 +9,7 @@ const MobileBanner = () => {
             <p className=" text-[12px] text-white03 font-poppins ">
               September 1, 2025
             </p>
-            <h1 className=" text-4xl font-extrabold text-white font-poppins mt-2 sm:mt-8">
+            <h1 className="text-2xl md:text-4xl font-extrabold text-white font-poppins my-5 mt-8">
               Welcome Back, Nayeam
             </h1>
             <p className=" text-[14px] text-white03 font-poppins mt-2 sm:mt-5  ">
