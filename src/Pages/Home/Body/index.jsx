@@ -5,7 +5,7 @@ import RightLayout from "./RightLayout";
 const Body = () => {
   return (
     <>
-      <div className="grid grid-cols-[2.5fr_1fr] gap-x-10 mt-25">
+      <div className="grid grid-cols-[2fr_1fr] gap-x-20 mt-5">
         <LeftLayout />
         <RightLayout />
       </div>

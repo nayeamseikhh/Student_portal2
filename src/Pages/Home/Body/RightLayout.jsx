@@ -7,25 +7,25 @@ const RightLayout = () => {
     <>
       <section>
         <div>
-          <h6 className="font-poppins text-2xl text-black font-bold">
+          <h6 className="font-poppins text-[18px] text-black font-bold">
             Course Instractor
           </h6>
-          <div className="flex mt-5 justify-between">
-            <div className="h-30 w-30 rounded-full border-6 border-primary custom_shadow02">
+          <div className="flex mt-4 justify-between">
+            <div className="h-22 w-22 rounded-full border-5 border-primary custom_shadow02 cursor-pointer hover:custom_shadow03 text-center transition-all ease-linear duration-300">
               <img
                 src={people01}
                 alt="PeopleImages"
                 className="h-full w-full object-cover rounded-full"
               />
             </div>
-            <div className="h-30 w-30 rounded-full border-6 border-primary custom_shadow02">
+            <div className="h-22 w-22 rounded-full border-5 border-primary custom_shadow02 cursor-pointer hover:custom_shadow03 text-center transition-all ease-linear duration-300">
               <img
                 src={people02}
                 alt="PeopleImages"
                 className="h-full w-full object-cover rounded-full"
               />
             </div>
-            <div className="h-30 w-30 rounded-full border-6 border-primary custom_shadow02">
+            <div className="h-22 w-22 rounded-full border-5 border-primary custom_shadow02 cursor-pointer hover:custom_shadow03 text-center transition-all ease-linear duration-300">
               <img
                 src={people03}
                 alt="PeopleImages"
@@ -35,39 +35,39 @@ const RightLayout = () => {
           </div>
         </div>
         <div>
-          <div className="font-poppins text-2xl text-black font-bold flex justify-between mt-5">
+          <div className="font-poppins text-[18px] text-black font-bold flex justify-between mt-4">
             <h6>Daily Notice</h6>
-            <h6 className="text-primary cursor-pointer hover:text-shadow-2xs">
+            <h6 className="text-primary cursor-pointer hover:text-shadow-2xs ">
               See all
             </h6>
           </div>
           <div>
-            <div className="mt-5 custom_shadow02  w-full rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
+            <div className="mt-4 custom_shadow02  w-full rounded-4xl border-6 border-transparent hover:border-primary transition-all ease-linear duration-300">
               <div className="p-5">
-                <h6 className="font-semibold text-xl">Prellm Payment due</h6>
+                <h6 className="font-semibold text-[16px]">
+                  Prellm Payment due
+                </h6>
                 <p
                   className="cla
                 my-4 text-l text-white02"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam id et fuga commodi quidem, quisquam sint ea ut laborum
-                  itaque.
+                  Lorem ipsum dolor sit amet, dolor sit amet quisquam sint ea ut
+                  laborum lorem.
                 </p>
-                <span className="text-primary text-xl font-semibold">
+                <span className="text-primary text-[16px] font-semibold cursor-pointer">
                   See more
                 </span>
               </div>
               <div className="p-5">
-                <h6 className="font-semibold text-xl">Exam Schedule</h6>
+                <h6 className="font-semibold text-[16px]">Exam Schedule</h6>
                 <p
                   className="cla
                 my-4 text-l text-white02"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam id et fuga commodi quidem, quisquam sint ea ut laborum
-                  itaque.
+                  Aperiam id et fuga.
                 </p>
-                <span className="text-primary text-xl font-semibold">
+                <span className="text-primary text-[16px] font-semibold cursor-pointer">
                   See more
                 </span>
               </div>

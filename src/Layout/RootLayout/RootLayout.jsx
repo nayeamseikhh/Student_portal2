@@ -5,7 +5,7 @@ const RootLayout = () => {
   return (
     <>
       <div>
-        <div className=" my-20 mx-50 rounded-2xl custom_shadow bg-white ">
+        <div>
           <Outlet />
         </div>
       </div>
